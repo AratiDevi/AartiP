@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2017-04-17T07:05:14Z" finished-at="2017-04-17T07:05:14Z">
+    <groups>
+      <group name="Help">
+        <method signature="HelpMenuTest.FAQTopic()[pri:292, instance:TestCases.HelpMenuTest@6cd28fa7]" name="FAQTopic" class="TestCases.HelpMenuTest"/>
+        <method signature="HelpMenuTest.Databuilding()[pri:288, instance:TestCases.HelpMenuTest@6cd28fa7]" name="Databuilding" class="TestCases.HelpMenuTest"/>
+        <method signature="HelpMenuTest.SupportDesk555()[pri:289, instance:TestCases.HelpMenuTest@6cd28fa7]" name="SupportDesk555" class="TestCases.HelpMenuTest"/>
+        <method signature="HelpMenuTest.TrainingVideos()[pri:290, instance:TestCases.HelpMenuTest@6cd28fa7]" name="TrainingVideos" class="TestCases.HelpMenuTest"/>
+        <method signature="HelpMenuTest.FAQ()[pri:291, instance:TestCases.HelpMenuTest@6cd28fa7]" name="FAQ" class="TestCases.HelpMenuTest"/>
+      </group> <!-- Help -->
+      <group name="ef_Menus">
+        <method signature="eFormsMenuTest.LashingGearInventory()[pri:287, instance:TestCases.eFormsMenuTest@66d3eec0]" name="LashingGearInventory" class="TestCases.eFormsMenuTest"/>
+        <method signature="eFormsMenuTest.eForm()[pri:286, instance:TestCases.eFormsMenuTest@66d3eec0]" name="eForm" class="TestCases.eFormsMenuTest"/>
+      </group> <!-- ef_Menus -->
+    </groups>
+  </suite> <!-- Suite -->
+</testng-results>

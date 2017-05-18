@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="IE"/>
+  <test name="IEtest(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="TestCases.MainTest">
+        <methods>
+          <include name="initialioseBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.MainTest -->
+    </classes>
+  </test> <!-- IEtest(failed) -->
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.MainTest">
+        <methods>
+          <include name="initialioseBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.MainTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

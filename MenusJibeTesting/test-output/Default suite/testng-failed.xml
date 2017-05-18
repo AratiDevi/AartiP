@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestCases.AdminMenuTest">
+        <methods>
+          <include name="VesselType"/>
+          <include name="BunkerTestingLab"/>
+          <include name="Port"/>
+          <include name="ApprovalLimit"/>
+          <include name="Company"/>
+          <include name="OfficeSyncSettings"/>
+          <include name="LicenseKeyGeneration"/>
+          <include name="MenuAssignment"/>
+          <include name="UserVesselAssignment1"/>
+          <include name="StaffRemarkCategory"/>
+          <include name="CompanyRelationships"/>
+          <include name="UserMenuRelationship"/>
+          <include name="OfficeDepartment"/>
+          <include name="AsyncUserMenuAssignment"/>
+          <include name="Currency"/>
+          <include name="Department"/>
+          <include name="UserSnippetAccess"/>
+          <include name="VesselVideos"/>
+          <include name="ApprovalType"/>
+          <include name="Fleet"/>
+          <include name="TradingZones"/>
+          <include name="ShipDepartment"/>
+          <include name="OfficeAttachmentRule"/>
+          <include name="CrewSettings"/>
+          <include name="ProjectMgmt"/>
+          <include name="Airport"/>
+          <include name="MailActionSettings"/>
+          <include name="VesselAttachmentRule"/>
+          <include name="UserType"/>
+          <include name="CrewJoiningTypes"/>
+          <include name="MenuHelpSettings"/>
+          <include name="Country"/>
+          <include name="UserVesselAssignment"/>
+          <include name="DashboardSnippets"/>
+          <include name="VesselFlag"/>
+          <include name="AlertsandNotifications"/>
+          <include name="SalaryStructure"/>
+          <include name="VesselEEDI"/>
+          <include name="UserList"/>
+          <include name="Vessels"/>
+          <include name="TechnicalSettings"/>
+          <include name="Timezones"/>
+          <include name="AccessRightsReport"/>
+          <include name="CreateUser"/>
+          <include name="ExceptionList"/>
+          <include name="MenuManagement"/>
+          <include name="AccessRightsChanges"/>
+          <include name="NavigationProjectMgmt"/>
+          <include name="HelpFileSettings"/>
+          <include name="VesselUser"/>
+          <include name="ApprovalGroup"/>
+          <include name="UploadFileSize"/>
+        </methods>
+      </class> <!-- TestCases.AdminMenuTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
